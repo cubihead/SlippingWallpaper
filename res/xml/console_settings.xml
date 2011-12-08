@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/settings"
+        android:key="consolewallpaper_settings">
+
+	<ListPreference
+            android:key="type"
+            android:title="@string/type_title"
+            android:summary="@string/type_summary"
+            android:entries="@array/typenames"
+            android:entryValues="@array/typeprefix" />
+            
+    <ListPreference
+            android:key="color"
+            android:title="@string/color_title"
+            android:summary="@string/color_summary"
+            android:entries="@array/colornames"
+            android:entryValues="@array/colorprefix" />
+
+    <ListPreference
+            android:key="speed"
+            android:title="@string/speed_title"
+            android:summary="@string/speed_summary"
+            android:entries="@array/speednames"
+            android:entryValues="@array/speedprefix" />
+            
+    <ListPreference
+            android:key="randomspeed"
+            android:title="@string/randomspeed_title"
+            android:summary="@string/randomspeed_summary"
+            android:entries="@array/randomspeednames"
+            android:entryValues="@array/randomspeedprefix" />
+            
+	<ListPreference
+            android:key="length"
+            android:title="@string/length_title"
+            android:summary="@string/length_summary"
+            android:entries="@array/lengthnames"
+            android:entryValues="@array/lengthprefix" />
+            
+    <ListPreference
+            android:key="brightness"
+            android:title="@string/brightness_title"
+            android:summary="@string/brightness_summary"
+            android:entries="@array/brightnessnames"
+            android:entryValues="@array/brightnessprefix" />
+            
+    <ListPreference
+            android:key="orientation"
+            android:title="@string/orientation_title"
+            android:summary="@string/orientation_summary"
+            android:entries="@array/orientationnames"
+            android:entryValues="@array/orientationprefix" />
+
+</PreferenceScreen>

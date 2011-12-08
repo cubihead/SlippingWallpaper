@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sliding Slipper</string>
+    <string name="settings">Settings</string>
+    
+    
+    <string name="type_title">Type</string>
+    <string name="type_summary">Slipper type</string>
+    <string-array name="typenames">
+        <item>"Bars"</item>
+        <item>"Dots"</item>
+        <item>"Random"</item>
+    </string-array>
+    <string-array name="typeprefix">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"10"</item>
+    </string-array>
+    
+    <string name="speed_title">Speed</string>
+    <string name="speed_summary">Choose the speed</string>
+    <string-array name="speednames">
+        <item>"Slow"</item>
+        <item>"Normal"</item>
+        <item>"Fast"</item>
+    </string-array>
+    <string-array name="speedprefix">
+        <item>"1"</item>
+        <item>"3"</item>
+        <item>"6"</item>
+    </string-array>
+    
+    <string name="randomspeed_title">Random speed</string>
+    <string name="randomspeed_summary">Randomize the speed</string>
+    <string-array name="randomspeednames">
+    	<item>"Off"</item>
+        <item>"Few"</item>
+        <item>"Middle"</item>
+        <item>"Much"</item>
+    </string-array>
+    <string-array name="randomspeedprefix">
+    	<item>"0"</item>
+        <item>"6"</item>
+        <item>"10"</item>
+        <item>"15"</item>
+    </string-array>
+    
+    <string name="length_title">Length</string>
+    <string name="length_summary">Length of the slipper</string>
+    <string-array name="lengthnames">
+    	<item>"Half"</item>
+        <item>"Normal"</item>
+        <item>"Double"</item>
+        <item>"Random"</item>
+    </string-array>
+    <string-array name="lengthprefix">
+    	<item>"0.5""</item>
+        <item>"1"</item>
+        <item>"1.5"</item>
+        <item>"10"</item>
+    </string-array>
+    
+    <string name="color_title">Color</string>
+    <string name="color_summary">Color of the slipper</string>
+    <string-array name="colornames">
+    	<item>"Green"</item>
+        <item>"Gray"</item>
+        <item>"Yellow"</item>
+        <item>"Red"</item>
+        <item>"Blue"</item>
+        <item>"White"</item>
+        <item>"Random"</item>
+    </string-array>
+    <string-array name="colorprefix">
+    	<item>"1""</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"10"</item>
+    </string-array>
+    
+    <string name="brightness_title">Brightness</string>
+    <string name="brightness_summary">Save Battery</string>
+    <string-array name="brightnessnames">
+    	<item>"Normal"</item>
+        <item>"Dark"</item>
+        <item>"Very Dark"</item>
+    </string-array>
+    <string-array name="brightnessprefix">
+    	<item>"0"</item>
+        <item>"darklight"</item>
+        <item>"dark"</item>
+    </string-array>
+    
+    <string name="orientation_title">Orientation</string>
+    <string name="orientation_summary">Direction the slippers are moving</string>
+    <string-array name="orientationnames">
+    	<item>"Left -> Right"</item>
+        <item>"Right -> Left"</item>
+    </string-array>
+    <string-array name="orientationprefix">
+    	<item>"1"</item>
+        <item>"2"</item>
+    </string-array>
+</resources>
